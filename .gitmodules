@@ -1,0 +1,3 @@
+[submodule "3rdparty/Simple-Modal"]
+	path = 3rdparty/Simple-Modal
+	url = https://github.com/hemstreet/Simple-Modal.git

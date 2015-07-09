@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACZ,OAAO,EAAE,YAAY;;AAEvB,YAAY;EACV,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
+"sources": ["sliderModal.sass"],
+"names": [],
+"file": "sliderModal.css"
+}
