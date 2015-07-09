@@ -17,19 +17,21 @@
 
             var setupSliders = function () {
 
-                var left = $( '<div class="leftArrow"><</div>' ),
-                    right = $( '<div class="rightArrow">></div>' );
+                var $left = $( '<div class="leftArrow"><</div>' ),
+                    $right = $( '<div class="rightArrow">></div>' );
 
-                left.on( 'hover', function () {
+                $( this ).prepend( $left );
+                $( this ).append( $right );
+
+                console.log($left[0], $right);
+                $left.on( 'hover', function () {
+                    console.log('left hover');
                     scrollLeft();
                 });
 
-                right.on( 'hover', function () {
+                $right.on( 'hover', function () {
                     scrollRight();
                 });
-
-                $( this ).prepend( left );
-                $( this ).append( right );
 
             }.bind( this );
 
